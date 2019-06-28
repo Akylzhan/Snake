@@ -1,2 +1,2 @@
 # Snake
-My implementation of famous Snake game written in Lua with Löve2D framework
+Actually, I didn't finish it :c
