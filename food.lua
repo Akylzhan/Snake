@@ -18,8 +18,8 @@ function Food:update(dt)
 end
 
 function Food:checkCollision2()
-	if self.tile_x == player.bodyParts[1]['tile_x']
-		and self.tile_y == player.bodyParts[1]['tile_y'] then
+	if self.tile_x == player.bodyParts[1].x
+		and self.tile_y == player.bodyParts[1].y then
 			return true
 	end
 end

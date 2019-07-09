@@ -19,7 +19,7 @@ end
 
 
 function love.keypressed(key)
-	player:keyPressed()
+	player:keyPressed(key)
 end
 
 function love.update(dt)
